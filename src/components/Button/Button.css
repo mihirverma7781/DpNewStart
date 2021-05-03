@@ -1,0 +1,9 @@
+@import  '../../index.css';
+
+.main-btn{
+    background-color: var(--primary-color);
+    padding: 15px 25px;
+    border: none;
+    font-weight: 600;
+    color: white;
+}

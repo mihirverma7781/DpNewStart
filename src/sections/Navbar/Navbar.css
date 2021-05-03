@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  /* border: 2px solid black; */
+}
+
+.logo-section {
+  display: flex;
+  width: 50%;
+  /* border: 2px solid black; */
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 30px;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+}
+.navigation-section {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  /* border: 2px solid black; */
+  justify-content: space-evenly;
+  padding: 30px;
+}
+
+.nav-ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-list {
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 500;
+}
