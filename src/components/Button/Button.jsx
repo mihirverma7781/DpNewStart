@@ -1,8 +1,8 @@
 import React from 'react'
 import './Button.css'
-const Button = ({label}) => {
+const Button = ({label,className}) => {
     return (
-        <button className="main-btn">{label}</button>
+        <button className={className}>{label}</button>
     )
 }
 

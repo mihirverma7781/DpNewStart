@@ -17,7 +17,12 @@ const Navbar = ({ navitems }) => {
             ))
           }
         </ul>
-        <Button label="BOOK NOW" />
+        <Button label="BOOK NOW"  className="nav-btn"/>
+        <div className="ham">
+          <span className="bar"></span>
+          <span className="bar"></span>
+          <span className="bar"></span>
+        </div>
       </div>
     </div>
   );

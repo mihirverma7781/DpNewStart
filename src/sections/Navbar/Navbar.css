@@ -1,26 +1,26 @@
 .navbar {
   display: flex;
-  /* border: 2px solid black; */
+  background: linear-gradient(to left, white 50%, var(--secondary-color) 50%);
+  justify-content: space-between;
+
 }
 
 .logo-section {
   display: flex;
-  width: 50%;
+  /* width: 50%; */
   /* border: 2px solid black; */
   align-items: center;
   font-size: 1.5rem;
   font-weight: 600;
   padding: 30px;
   color: var(--primary-color);
-  background-color: var(--secondary-color);
 }
 .navigation-section {
   display: flex;
   align-items: center;
-  width: 50%;
-  /* border: 2px solid black; */
   justify-content: space-evenly;
   padding: 30px;
+
 }
 
 .nav-ul {
@@ -32,4 +32,37 @@
   padding: 15px;
   font-size: 18px;
   font-weight: 500;
+}
+
+.ham{
+  display: none;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 30px;
+  height: 30px;
+}
+.bar{
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 1000px){
+
+  .navbar{
+    background: var(--secondary-color ) !important;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .nav-ul{
+    display: none;
+  }
+
+  .nav-btn{
+    display: none;
+  }
+
+  .ham{
+    display: flex;
+  }
 }
