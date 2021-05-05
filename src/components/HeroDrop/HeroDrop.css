@@ -1,0 +1,25 @@
+@import  '../../index.css';
+
+.hero-drop{
+    display: flex;
+    flex-direction: column;
+    background-color:var(--grey);
+    justify-content: center;
+}
+.upper-drop{
+    display: flex;
+    padding: 0px;
+    font-weight: 600;
+    align-items: center;
+}
+.drop-head{
+    padding: 0 0px;
+
+}
+.svg{
+    padding: 0 0px;
+}
+.down-head{
+    padding: 5px 0px;
+    color: grey;
+}

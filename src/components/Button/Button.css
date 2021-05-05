@@ -2,8 +2,17 @@
 
 .nav-btn{
     background-color: var(--primary-color);
-    width: 100px !important;
+    width: 150px !important;
     padding: 15px 0 ;
+    border: none;
+    font-weight: 500;
+    color: white;
+}
+.hero-btn{
+    background-color: var(--primary-color);
+    width: 50px !important;
+    padding: 15px 0 ;
+    margin: 25px 10px;
     border: none;
     font-weight: 500;
     color: white;

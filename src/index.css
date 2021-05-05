@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
 :root{
 --primary-color:#cf8044;
 --secondary-color:#f5f1f0;
-
+--grey: rgb(250, 250, 250);
 }
 
 *{
@@ -11,3 +12,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+ h1{
+    font-family: 'Lora', serif;
+    font-weight: 100;
+ }

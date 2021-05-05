@@ -1,0 +1,42 @@
+@import  '../../index.css';
+
+.displayimage{
+    margin:  30px;
+}
+
+.side{
+    font-size: 1.5rem;
+    padding: 0 30px;
+    color: black !important;
+}
+.main{
+    padding: 0 30px;
+    font-size: 1.5rem;
+}
+.side-para{
+    font-size: 1rem;
+    padding: 0 30px;
+    margin-top: 30px;
+}
+.main-para{
+    font-size: 1rem;
+    padding: 0 30px;
+    margin-top: 30px;
+}
+
+.grey{
+    width: 340px;
+    /* border: 2px solid black; */
+    height: 340px;
+    background-color: var(--secondary-color);
+    color: grey;
+}
+
+.orange{
+    width: 360px;
+    /* border: 2px solid black; */
+    height: 360px;
+    background-color: var(--primary-color);
+    color: white;
+    box-shadow: 0px 0px 20px rgb(201, 201, 201);
+}

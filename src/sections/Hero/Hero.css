@@ -1,0 +1,57 @@
+@import "../../index.css";
+.hero {
+  display: flex;
+  height: 100vh;
+}
+.hero-head {
+  font-size: 3.2rem;
+}
+.heroImage {
+  display: flex;
+  width: 50%;
+  background-color: var(--secondary-color);
+}
+.heroImage img {
+  width: 70%;
+  margin-left: auto;
+}
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.drop-comps {
+  display: flex;
+  background-color: var(--grey);
+  padding: 0px 40px;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 80px;
+}
+
+.playlist {
+  display: flex;
+  width: 92%;
+  margin-top: auto;
+}
+.play-btn {
+  display: flex;
+  width: 33.33%;
+  height: 130px;
+  background-color: var(--primary-color);
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-para {
+  color: grey;
+  font-size: 1.1rem;
+  font-weight: 300;
+  margin-left: 50px;
+  margin-bottom: 100px;
+}
+.hero-head {
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
