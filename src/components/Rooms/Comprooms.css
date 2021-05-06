@@ -1,0 +1,65 @@
+@import  '../../index.css';
+
+
+.first{
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 230px;
+    /* border: 2px solid black; */
+    /* margin: 15px ; */
+    justify-content: space-around;
+    background-color: #FAF3EF;
+    padding: 20px;
+    
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 230px;
+    justify-content: space-around  ;
+    /* border: 2px solid black; */
+    padding: 20px;
+}
+
+.room-num{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+    display: flex;
+    width: 50px;
+    margin: 8px;
+    padding: 10px;
+    border-radius: 100%;
+
+}
+
+.first .room-num{
+    background-color: var(--grey);
+}
+.second .room-num{
+    background-color: #FAF3EF ;
+}
+.first h3{
+    color: var(--primary-color);
+}
+.second h3{
+    color: var(--primary-color);
+}
+
+.room-head{
+    /* padding: 5px;
+    margin: 5px; */
+}
+
+.room-head {
+ font-weight: 700;
+ font-size: 1.1rem;
+}
+.room-text{
+    /* padding: 10px; */
+    font-weight: 100;
+    font-size: 0.9rem;
+}

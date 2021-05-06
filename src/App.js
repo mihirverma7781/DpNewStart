@@ -4,6 +4,7 @@ import navitems from "./json/navbar.json"
 import Hero from './sections/Hero/Hero'
 import SponserSec from './sections/SponserSec/SponserSec'
 import Display from './sections/Display/Display'
+import Rooms from './sections/Rooms/Rooms'
 
 const App = () => {
   return (
@@ -21,7 +22,9 @@ const App = () => {
 
 <Display/>
 
-      {/* Work */}
+      {/* Rooms */}
+  
+  <Rooms/>
 
       {/* Categories */}
 
