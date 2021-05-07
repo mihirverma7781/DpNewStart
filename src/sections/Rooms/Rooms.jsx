@@ -14,7 +14,7 @@ const Rooms = () => {
                 <CompRooms className="second" num="03" roomhead="Start exploring our best room service" roomtext="llorem ipsum random text" />
                 <CompRooms className="second" num="04" roomhead="Book it  & save enterance reservation" roomtext="llorem ipsum random text" />
             </div>
-            <div className="room-lower">
+            <div className="room-lower" data-aos="zoom-out-left">
                 <img src={roomImage} alt="rooms" srcset=""/>
             </div>
         </div>

@@ -1,0 +1,65 @@
+@import  '../../index.css';
+
+.footer{
+    margin-top: 10em;
+    height: 55vh;
+    color: white;
+    background-color: var(--primary-color);
+}
+
+.f-upper{
+    display: flex;
+
+}
+.right-footer{
+    width: 40%;
+    padding: 40px;
+ 
+}
+.left-footer{
+    display: flex;
+    padding: 40px;
+    width: 100%;
+    justify-content: space-around;
+    list-style: none;
+}
+.footer-head{
+    font-size: 1.5rem;
+}
+.footer-para{
+    font-size: 0.9rem;
+    margin-top: 20px;
+}
+.ul-label{
+    font-weight: 600;
+    font-size: 1.09rem;
+}
+.footer-list{
+    padding: 9px 0;
+    font-size: 0.95rem;
+    
+}
+.f-lower{
+    text-align: center;
+    /* padding: 10px; */
+}
+
+@media only screen and (max-width: 700px){
+    .footer{
+        flex-direction: column;
+        height: max-content;
+    }
+    .f-upper{
+        flex-direction: column;
+    }
+    .right-footer{
+        width: 90%;
+    }
+    .left-footer{
+        flex-wrap: wrap;
+        padding: 0 ;
+    }
+    .f-lower{
+        padding: 20px 0;
+    }
+}

@@ -8,6 +8,18 @@
     font-weight: 500;
     color: white;
 }
+.cat-btn{
+    background-color: var(--primary-color);
+    width: 150px !important;
+    padding: 15px 0 ;
+    border: none;
+    font-weight: 500;
+    color: white;
+    justify-self: flex-end;
+    margin-top: 1rem;
+    margin-left: 20px;
+
+}
 .hero-btn{
     background-color: var(--primary-color);
     width: 50px !important;

@@ -3,7 +3,7 @@ import Sponser from '../../components/Sponser/Sponser'
 import './SponserSec.css'
 const SponserSec = () => {
     return (
-        <div className="sponser-sec">
+        <div className="sponser-sec" data-aos="zoom-out-up">
             <Sponser src={"https://www.pngitem.com/pimgs/m/169-1691864_ikea-hd-png-download.png"}/>
             <Sponser src={"https://www.krisbow.com/static/frontend/Kawanlama/default/en_US/images/new_logo.png"}/>
             <Sponser src={"https://cooksoncreative.files.wordpress.com/2020/04/logo-microsoft-404px-grey.png"}/>

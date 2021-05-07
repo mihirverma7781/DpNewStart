@@ -1,0 +1,51 @@
+@import  '../../index.css';
+
+.cat-comp{
+    display: flex;
+    flex-direction: column;
+    height: min-content;
+    padding: 10px;
+    background-color: var(--grey);
+}
+.cat-comp1{
+    margin-top: auto;
+}
+.cat-comp2{
+    margin: auto;
+}
+
+.cat-comp img{
+    width: 100%;
+}
+
+.room-type{
+    font-weight: 600;
+    margin-top: 5px;
+    position: relative;
+    left: 10px;
+}
+.price{
+    color: var(--primary-color);
+    font-family: 'Lora', serif;
+    position: relative;
+    margin-left: auto;
+    right: 10px;
+    bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.rating{
+    position: relative;
+    bottom: 15px;
+    left: 10px;
+    color: var(--primary-color);
+    font-family: 'Lora', serif;
+}
+
+@media only screen and (max-width: 700px) {
+.cat-comp{
+    width: 100%;
+}
+
+
+}

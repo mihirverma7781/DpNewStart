@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
 :root{
 --primary-color:#cf8044;
---secondary-color:#f5f1f0;
+--secondary-color:#FDF6F2;
 --grey: rgb(250, 250, 250);
 }
 
@@ -11,6 +11,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
  h1{
     font-family: 'Lora', serif;

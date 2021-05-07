@@ -30,3 +30,14 @@
     margin: 4rem 0;
     align-items: center;
 }
+
+@media only screen and (max-width: 700px) {
+    .service-lower{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .service-lower{
+        margin: 1rem 0;
+    }
+}
